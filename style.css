@@ -1,0 +1,40 @@
+.contaner{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    padding: 40px;
+    /* background-color: #d3ddd1; */
+    border: #4bbd3c 2px solid;
+    background-image: url("https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg");
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+h1{
+    background-color: wheat;
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 7px;
+    border: 2px green solid;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    color: black;
+    margin: auto;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #baffb1;
+    border-radius: 10px;
+    display: block;
+    margin-top: 40px;
+    border: 2px green solid;
+
+}
