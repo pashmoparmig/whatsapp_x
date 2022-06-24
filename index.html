@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contaner">
+        <h1>whatsapp with out save number</h1>
+        <input type="number" id="num" placeholder="123456789">
+        <input type="text" id="massage" placeholder="... السلام عليكم">
+        <button onclick="openlink()">send</button>
+    </div>
+
+    <style>
+        .contaner{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    padding: 40px;
+    background-color: #d3ddd1;
+    border: #4bbd3c 2px solid;
+
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 7px;
+    border: 1px green;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    color: white;
+    margin: auto;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #42d72f;
+    border-radius: 10px;
+    display: block;
+    margin-top: 40px;
+    border: 1px green;
+
+}
+    </style>
+<script>
+
+num = document.getElementById('num');
+massage = document.getElementById('massage');
+
+function openlink(){
+window.open('https://wa.me/send?text='+ massage.value + '&phone=2' + num.value);
+}
+
+</script>
+
+    <!-- <script  src="main.js" ></script> -->
+</body>
+</html>
